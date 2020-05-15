@@ -22,7 +22,7 @@ git clone https://github.com/Sifa91/redhat-obs-overlay.git
 ```
 
 Then open your OBS and import overlay.json from the cloned repository.
-In your OBS go to Scenes -> Import 
+In your OBS go to Scene collection -> Import 
 
 DONE!!!
 
