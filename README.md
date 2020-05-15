@@ -3,6 +3,8 @@
 
 This repository contains all necessary files for your personal Red Hat OBS overlay.
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Overlay example")
+
 ### Setup
 
 #### Prerequesites
