@@ -1495,7 +1495,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/mail.png"
+                "file": "{{ path }}redhat-overlay/img/mail.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1520,7 +1520,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/phone.png"
+                "file": "{{ path }}redhat-overlay/img/phone.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1545,7 +1545,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/web.png"
+                "file": "{{ path }}redhat-overlay/img/web.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1570,7 +1570,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/user.png"
+                "file": "{{ path }}redhat-overlay/img/user.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1595,7 +1595,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/logo.png"
+                "file": "{{ path }}redhat-overlay/img/logo.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1947,7 +1947,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/cam.png"
+                "file": "{{ path }}redhat-overlay/img/cam.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2006,7 +2006,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/bar.png"
+                "file": "{{ path }}redhat-overlay/img/bar.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2031,7 +2031,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/bar.png"
+                "file": "{{ path }}redhat-overlay/img/bar.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2056,7 +2056,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/bar.png"
+                "file": "{{ path }}redhat-overlay/img/bar.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2081,7 +2081,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/bar.png"
+                "file": "{{ path }}redhat-overlay/img/bar.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2419,7 +2419,7 @@
             "settings": {
                 "css": "body {\n  overflow: hidden; /* Hide scrollbars */\n}",
                 "is_local_file": true,
-                "local_file": "D:/git/redhat-overlay/widgets/twitter.html",
+                "local_file": "{{ path }}redhat-overlay/widgets/twitter.html",
                 "restart_when_active": true
             },
             "sync": 0,
@@ -2445,7 +2445,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/twitter-frame.png"
+                "file": "{{ path }}redhat-overlay/img/twitter-frame.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -2470,7 +2470,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "D:/git/redhat-overlay/img/community.png"
+                "file": "{{ path }}redhat-overlay/img/community.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
