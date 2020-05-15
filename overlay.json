@@ -69,6 +69,152 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
+            "hotkeys": {},
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "twitter-group",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 1011,
+                "cy": 837,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": true,
+                        "name": "frame",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 12.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62916666269302368,
+                            "y": 1.5277777910232544
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "twitter-timeline",
+                        "pos": {
+                            "x": 48.0,
+                            "y": 77.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.2037500143051147,
+                            "y": 1.2033333778381348
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "community",
+                        "pos": {
+                            "x": 11.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.20277777314186096,
+                            "y": 0.20221607387065887
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": true,
+                        "name": "heading",
+                        "pos": {
+                            "x": 84.0,
+                            "y": 15.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {
                 "libobs.hide_scene_item.user": [],
                 "libobs.hide_scene_item.user-bar": [],
@@ -736,6 +882,38 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
+            "name": "heading",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278190080,
+                "font": {
+                    "face": "Red Hat Text",
+                    "flags": 1,
+                    "size": 48,
+                    "style": "Bold"
+                },
+                "text": "Twitter feed"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
             "name": "mail-text",
             "prev_ver": 419430408,
             "private_settings": {},
@@ -1164,7 +1342,7 @@
                             "y": 853.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1680,7 +1858,7 @@
                     "size": 48,
                     "style": "Bold"
                 },
-                "text": "Twitter feed"
+                "text": "Sebastian Dehn"
             },
             "sync": 0,
             "versioned_id": "text_gdiplus_v2",
@@ -2038,12 +2216,14 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.community": [],
                 "libobs.hide_scene_item.frame": [],
+                "libobs.hide_scene_item.heading": [],
+                "libobs.hide_scene_item.twitter-group": [],
                 "libobs.hide_scene_item.twitter-timeline": [],
-                "libobs.hide_scene_item.user-text": [],
                 "libobs.show_scene_item.community": [],
                 "libobs.show_scene_item.frame": [],
-                "libobs.show_scene_item.twitter-timeline": [],
-                "libobs.show_scene_item.user-text": []
+                "libobs.show_scene_item.heading": [],
+                "libobs.show_scene_item.twitter-group": [],
+                "libobs.show_scene_item.twitter-timeline": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2058,7 +2238,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 4,
+                "id_counter": 6,
                 "items": [
                     {
                         "align": 5,
@@ -2072,9 +2252,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 2,
-                        "locked": false,
+                        "locked": true,
                         "name": "frame",
                         "pos": {
                             "x": 439.0,
@@ -2101,9 +2281,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 1,
-                        "locked": false,
+                        "locked": true,
                         "name": "twitter-timeline",
                         "pos": {
                             "x": 487.0,
@@ -2130,9 +2310,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "id": 3,
-                        "locked": false,
+                        "locked": true,
                         "name": "community",
                         "pos": {
                             "x": 450.0,
@@ -2159,15 +2339,46 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "user-text",
+                        "group_item_backup": true,
+                        "id": 5,
+                        "locked": true,
+                        "name": "heading",
                         "pos": {
                             "x": 523.0,
                             "y": 66.0
                         },
                         "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "twitter-group",
+                        "pos": {
+                            "x": 439.0,
+                            "y": 51.0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
