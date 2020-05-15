@@ -1,0 +1,4 @@
+---
+- import_tasks: overlay.yml
+  vars:
+    path: "{{ overlay_path }}"

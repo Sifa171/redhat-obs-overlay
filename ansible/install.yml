@@ -1,0 +1,9 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: localhost
+  vars_files:
+  - vars.yml
+  tasks:
+  - import_role:
+      name: create-overlay-file
+      tasks_from: main.yml

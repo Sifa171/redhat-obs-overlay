@@ -1,0 +1,5 @@
+---
+- name: Creating your overlay file
+  template:
+    src: "overlay.json.j2"
+    dest: "{{ overlay_path }}/overlay.json"
